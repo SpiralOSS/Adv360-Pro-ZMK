@@ -1,3 +1,15 @@
+macro_fsharp_arrow: macro_fsharp_arrow{
+compatible = "zmk,behavior-macro";
+label = "macro_fsharp_arrow";
+#binding-cells = <0>;
+bindings = <&kp MINUS>, <&kp GT>;
+};
+macro_csharp_arrow: macro_csharp_arrow{
+compatible = "zmk,behavior-macro";
+label = "macro_csharp_arrow";
+#binding-cells = <0>;
+bindings = <&kp EQUAL>, <&kp GT>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
